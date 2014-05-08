@@ -23,6 +23,7 @@ EndScreen.prototype = {
 			url_app:location.href,
 			url_diversity:resource_data.url_diversity,
 			url_jobs:resource_data.url_jobs,
+			bg_header_image :resource_data.getPath("header_common")
 		});
 		
 		this.storeScore = arrT;

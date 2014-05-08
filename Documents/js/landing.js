@@ -15,7 +15,8 @@ LandingScreen.prototype = {
 		this.mApplication.showScreen(this.mDivName);
 
 		var resourceKey, sHTML = this.mApplication.renderTemplate('landing_screen_ui', {
-			img_landing_footer : resource_data.getPath("landing_footer")
+			img_landing_footer : resource_data.getPath("landing_footer"),
+			bg_header_image :resource_data.getPath("header_common")
 		});
 		document.getElementById(this.mDivName).innerHTML = sHTML;
 

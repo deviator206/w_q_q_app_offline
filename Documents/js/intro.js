@@ -15,6 +15,7 @@ IntroScreen.prototype = {
 		this.mApplication.showScreen(this.mDivName);
 
 		var resourceKey, sHTML = this.mApplication.renderTemplate('intro_screen_ui', {
+			bg_header_image :resource_data.getPath("header_common")
 		});
 		
 		document.getElementById(this.mDivName).innerHTML = sHTML;

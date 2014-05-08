@@ -185,6 +185,8 @@ var resource_data = {
 		'pb10' : ['game/progress/pb10.png', null],
 		'pb11' : ['game/progress/pb11.png', null],
 		
+		'header_common':['common/header.png', null]
+		
 
 	},
 	dom : {//DIV NAMES

@@ -5,6 +5,20 @@
 	src: url('./fonts/RotisSansSerifforACCN-Bold.woff')  format('woff');
 }
 
+
+body
+{
+	font-size: 12px;
+}
+.header-component
+{
+	width: 100%;
+	height: 93px;
+	background-repeat: no-repeat;
+	margin-left:2%;
+	background-size: 96% 100%;
+	xbackground-image: url("../../PublishingImages/quiz/common/header.png");
+}
 .body-bg {
 	margin: 7% auto;
 }
@@ -61,7 +75,7 @@
 	height: 242px;
 }
 .congrats-greater-than-img-container {
-	padding-top: 8%;
+	padding-top: 0;
 }
 .home-question-text {
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
@@ -69,7 +83,7 @@
 	color: #FFF;
 	width: 35%;
 	margin: 0 0 0 8%;
-	padding-top:20%;
+	padding-top:14%;
 }
 .std-btn {
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
@@ -108,7 +122,7 @@
 	text-align: center;
 }
 .time-container-layout {
-	padding-top:10%;
+	padding-top:5%;
 	float: right;
 	width: 20%;
 }
@@ -117,7 +131,7 @@
 	width: 100%;
 }
 .quiz-number-container {
-	padding-top: 10%;	
+	padding-top: 5%;	
 	float: left;
 	width: 80%;
 }
@@ -164,7 +178,7 @@
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
 	font-size:2.5em;
 	color: #FFF500;
-	padding: 10% 0 0 5%;
+	padding: 5% 0 0 5%;
 }
 .answer-container {
 	min-height: 230px;
@@ -212,7 +226,7 @@
 }
 .question-text {
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
-	margin: 7% 0 3% 8%;
+	margin: 4% 0 3% 8%;
 	font-size: 2em;
 	width: 85%;
 	color: #FFF500;
