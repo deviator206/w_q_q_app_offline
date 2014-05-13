@@ -196,6 +196,7 @@
 	max-height: 205px;
 	margin: 0 5% 0 6%;
 	background: #FFF500;
+	width:100%;
 }
 .answer-title {
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
@@ -205,7 +206,7 @@
 }
 .answer-button-container {
 	float: left;
-	width: 66%;
+	width: 90%;
 }
 .option-text {
 	font-family:Rotis-SansSeriffor-ACCN-Bold;
@@ -250,6 +251,7 @@
 	font-size: 1.3em;
 	height: 125px;
 	overflow-y: auto;
+	padding-bottom:2%;
 }
 .social-icon-container {
 	background-size: 100% 100%;
