@@ -48,7 +48,7 @@ function ApplicationWrapper() {
          resource_data.usemobileimages(isDesktopFlag);	
 	//this.jsAnimManager = new jsAnimManager(10);
 	this.setValues();
-	this.nextScene();
+	//this.nextScene();
 	return this
 }
 
@@ -279,9 +279,10 @@ ApplicationWrapper.prototype = {
 	},
 	showScreen : function(c) {
 		var a = 0;
+		
 		if (c !== undefined) {
 			for ( a = 0; a < this.mScreenManager.length; a++) {
-				if (c != this.mScreenManager[a]) {
+			if (c != this.mScreenManager[a]) {
 					document.getElementById(this.mScreenManager[a]).style.display = "none"
 				} else {
 					document.getElementById(this.mScreenManager[a]).style.display = "block"
@@ -324,7 +325,7 @@ window.onerror = function(msg, url, lineNumber) {
 		trace(msg);
 }
 var trace = function(str) {
-	if (_gMainApplication !== undefined && _gMainApplication.appMode == 1)
+	//if (_gMainApplication !== undefined && _gMainApplication.appMode == 1)
 		console.log("#[QUIZ APP LOGS]:" + str);
 }
 function doOnOrientationChange() {

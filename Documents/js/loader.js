@@ -13,6 +13,7 @@ function LoadingScreen(a) {
 LoadingScreen.prototype = {
 	
 	setUp : function() {
+	
 		this.mApplication.showScreen(this.mDivName);
 
 		var resourceKey, sHTML = this.mApplication.renderTemplate('loading_screen_ui', {
@@ -39,7 +40,7 @@ LoadingScreen.prototype = {
 	},
 	onComplete : function() {
 		trace("ASSET Loading COMPLETE!")
-		this.mApplication.nextScene();
+		//this.mApplication.nextScene();
 	},
 	onWrapperPush : function(cmd, data) {
 		
